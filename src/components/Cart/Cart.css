@@ -1,7 +1,10 @@
 .cart{
-    background-color: rgb(245, 230, 17);
+    width: 320px;
+    background-color: rgb(224, 224, 222);
     padding: 20px;
-  position:fixed
+  position:fixed;
+  color: rgb(0, 0, 0);
+  border: 1px solid yellow;
    
 }
 .cart p{
