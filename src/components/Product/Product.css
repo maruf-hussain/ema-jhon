@@ -39,6 +39,7 @@ position: relative;
 
 .btn-cart{
     background-color: rgb(243, 208, 9);
+    padding: 10px;
     /* border-radius: 0px 0px 10px 10px; */
     width: 100%;
     position: absolute;

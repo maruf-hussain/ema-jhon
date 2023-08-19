@@ -15,8 +15,8 @@ for(const product of cart){
    
    
 }
-const tax = total*7/100;
-const discount = parseInt(total*20/100);
+const tax = total*12/100;
+const discount = parseInt(total*5/100);
 const grandTotal = parseInt(total + totalShipping + tax -discount) ;
 
     return (
@@ -26,7 +26,7 @@ const grandTotal = parseInt(total + totalShipping + tax -discount) ;
 
              <p>Total Price: <span style={{marginLeft:'96px'}}>${total}</span></p>
              <p>Total Shipping: <span style={{marginLeft:'65px'}}>${totalShipping}</span>  </p>
-             <p>Tax: <span style={{marginLeft:'165px'}}>${tax.toFixed(2)}</span> </p>
+             <p>Tax: <span style={{marginLeft:'155px'}}>${tax.toFixed(2)}</span> </p>
              <p>Discount: <span style={{marginLeft:'115px'}}>${discount}</span> </p>
              <hr />
              <h2 >Grand Total:<span style={{marginLeft:'65px'}}>${grandTotal}</span>  </h2>
